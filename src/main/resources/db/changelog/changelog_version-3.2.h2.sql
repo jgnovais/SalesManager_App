@@ -11,3 +11,7 @@ INSERT INTO SALES (ITEM, QUANTITY, AMOUNT) VALUES ('Leather sofa By Michellotti'
 --changeset JohnD:1582471835439-6
 INSERT INTO SALES (ITEM, QUANTITY, AMOUNT) VALUES ('Round coffee table By Michellotti', 1, 800.23);
 --rollback DELETE FROM SALES WHERE ITEM='Round coffee table By Michellotti';
+
+--changeset Xavier:1582471835440-7
+INSERT INTO SALES (ITEM, QUANTITY, AMOUNT) VALUES ('Test By Xavier', 2, 820.23);
+--rollback DELETE FROM SALES WHERE ITEM='Test By Xavier';
